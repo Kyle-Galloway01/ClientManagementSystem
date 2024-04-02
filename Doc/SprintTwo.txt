@@ -26,8 +26,13 @@ ASP.NET Core Identity for User Management and Authentication:
 - Two-Factor Authentication (2FA): Provides options for enabling two-factor authentication methods such as SMS, email, or authenticator apps.
 - Social Authentication: Integrates with external identity providers (e.g., Google, Facebook) for authentication through OAuth2/OpenID Connect.
 
-For Our Project:
+For Project:
 - ASP.NET Core Identity for user management and authentication. 
 - user registration and login functionalities to allow users to create accounts and authenticate themselves securely.
 - configure role-based authorization to control access to certain features based on user roles. 
 - ASP.NET Core Identity will handle password management, ensuring that user passwords are securely stored and validated according to specified policies.
+
+Add indentity entity framework using terminal command:
+- dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore
+
+
