@@ -1,0 +1,33 @@
+Implement user authentication:
+- Research the available authentication options in ASP.NET Core. 
+- Explore ASP.NET Core Identity for user management and authentication, its a framework for handling authentication-related tasks.
+
+Overview of ASP.NET Core authentication link
+- https://learn.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-6.0
+Introduction to Identity on ASP.NET Core
+-https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-6.0&tabs=visual-studio
+
+Authentication Options in ASP.NET Core:
+- Cookie Authentication:
+    Uses encrypted cookies to authenticate users. Suitable for web applications where users log in using a username and password.
+- JWT Authentication:
+    Uses JSON Web Tokens (JWT) for authentication. Useful for building stateless APIs where clients authenticate using tokens.
+- OAuth2/OpenID Connect Authentication:
+    Implements OAuth2 and OpenID Connect protocols for authentication with external providers such as Google, Facebook, or Azure AD.
+
+ASP.NET Core Identity for User Management and Authentication:
+- ASP.NET Core Identity is a membership system that adds user authentication and authorization capabilities to ASP.NET Core applications. 
+  It provides the following features:
+- User Registration: Allows users to create accounts by providing basic information such as username, email, and password.
+- User Login: Authenticates users by verifying their credentials (username/email and password) against stored user data.
+- Password Management: Handles password hashing, storage, and validation. Supports password policies for enforcing complexity requirements.
+- Role-based Authorization: Assigns users to roles (e.g., admin, user) and restricts access to certain resources based on roles.
+- Claims-based Authentication: Supports claims-based authentication, allowing users to have additional attributes (claims) associated with their identity.
+- Two-Factor Authentication (2FA): Provides options for enabling two-factor authentication methods such as SMS, email, or authenticator apps.
+- Social Authentication: Integrates with external identity providers (e.g., Google, Facebook) for authentication through OAuth2/OpenID Connect.
+
+For Our Project:
+- ASP.NET Core Identity for user management and authentication. 
+- user registration and login functionalities to allow users to create accounts and authenticate themselves securely.
+- configure role-based authorization to control access to certain features based on user roles. 
+- ASP.NET Core Identity will handle password management, ensuring that user passwords are securely stored and validated according to specified policies.
