@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kyleg\\ClientManagementSystem\\ClientManagementSystem.csproj": {}
+    "C:\\Users\\kyleg\\CMSGIT\\ClientManagementSystem\\ClientManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kyleg\\ClientManagementSystem\\ClientManagementSystem.csproj": {
+    "C:\\Users\\kyleg\\CMSGIT\\ClientManagementSystem\\ClientManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kyleg\\ClientManagementSystem\\ClientManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\kyleg\\CMSGIT\\ClientManagementSystem\\ClientManagementSystem.csproj",
         "projectName": "ClientManagementSystem",
-        "projectPath": "C:\\Users\\kyleg\\ClientManagementSystem\\ClientManagementSystem.csproj",
+        "projectPath": "C:\\Users\\kyleg\\CMSGIT\\ClientManagementSystem\\ClientManagementSystem.csproj",
         "packagesPath": "C:\\Users\\kyleg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kyleg\\ClientManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\kyleg\\CMSGIT\\ClientManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kyleg\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -32,11 +32,26 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
