@@ -1,0 +1,12 @@
+Sprint 2:
+trying to install the identity entity framework and ran across this error:
+NU1202: Package Microsoft.AspNetCore.Identity.EntityFrameworkCore 8.0.3 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Package Microsoft.AspNetCore.Identity.EntityFrameworkCore 8.0.3 supports: net8.0 (.NETCoreApp,Version=v8.0)
+error: Package 'Microsoft.AspNetCore.Identity.EntityFrameworkCore' is incompatible with 'all' frameworks in project 'C:\Users\kyleg\CMSGIT\ClientManagementSystem\ClientManagementSystem.csproj'.
+PS C:\Users\kyleg\CMSGIT\ClientManagementSystem> 
+
+Seems compatibility issue with the version of the Microsoft.AspNetCore.Identity.EntityFrameworkCore package.
+The error message indicates that the package version 8.0.3 is not compatible with .NET 6.0, which is the target framework for your project.
+Solution: 
+open .csproj
+
+SOLVED: 
